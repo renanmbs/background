@@ -60,5 +60,5 @@ function choose_change(e){
 //Add event listeners
 event_input.addEventListener('change', pick_change); //On the input background color
 font_input.addEventListener('change', pick_change) //On the input font color
-event_pick.addEventListener('mouseout', choose_change); //On the picking background color
-font_pick.addEventListener('mouseout', choose_change); //On the picking font color
+event_pick.addEventListener('change', choose_change); //On the picking background color
+font_pick.addEventListener('change', choose_change); //On the picking font color
